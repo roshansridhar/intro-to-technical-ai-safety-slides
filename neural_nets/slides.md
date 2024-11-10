@@ -51,8 +51,6 @@ Imagine inputs are 1 and 2 respectively.
 + "Deep learning" refers to "deep neural nets," i.e. neural nets with more than
   one hidden layer. Nowadays almost every net is deep.
 + Layers only connect to immediately previous and subsequent layers (usually...)
-    * Can't "skip a layer"
-    * Prevents exponential blow up of connections
 
 # Look again at neural net structure
 
@@ -182,7 +180,7 @@ Pause for questions
 + Compute the loss/error of the network's answer
 + *Change weights and biases to reduce the loss/error*
 
-# Changing the weights and biases to reduce loss/error: Gradient descent
+# Changing the weights and biases to reduce loss/error
 
 + So far we've been thinking of neural nets as functions from input to output
   with our weights as constants
